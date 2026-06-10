@@ -18,7 +18,6 @@ print("Now I'm going to copy the word using ctrl-c!")
 time.sleep(1)
 pyautogui.hotkey('ctrl','c')
 
-
 print("Now I'm going to paste and press enter")
 time.sleep(1)
 pyautogui.hotkey('ctrl','v')
